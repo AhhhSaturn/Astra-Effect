@@ -1,1 +1,0 @@
-Astra - star/it/she
