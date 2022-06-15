@@ -1,3 +1,5 @@
+# **ALL WORK ON THIS PROJECT HAS BEEN MOVED [HERE](https://github.com/AstraEffect/Astra/)**
+
 # Astra
 From the beginning
 
