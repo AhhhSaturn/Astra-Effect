@@ -8,6 +8,7 @@ let currentCheck = 0
 let userInputLength = 0
 let questionFormatLength = 0
 let inputType = ''
+let body = document.getElementById("body");
 let form = document.getElementById("inputBar");
 function handleForm(event) { event.preventDefault(); processInput();} 
 form.addEventListener('submit', handleForm);
@@ -27,3 +28,9 @@ function processInput() {
     checkValidationValues();
     generateResponse();
 };
+
+function astraSetup() {
+    console.log('Debug: Astra version: ' + astraInfo.version);
+}
+
+astraSetup();
